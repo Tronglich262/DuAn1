@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 3f0f5f22c41bb7446a0b78847b6e9703
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Login.unity
     guid: 14b9a2bfe3a2bf5468584c075b2920b5
   - enabled: 1
@@ -26,13 +26,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: be007907a8c6ac9448961e6030b92fc1
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LoadScene.unity
     guid: 57dbb24faa941a549b64311f7e026417
   - enabled: 1
     path: Assets/Scenes/Manhinhvaogame.unity
     guid: 29c6114057449ff44a7de6bd6c93f188
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/dangky_dangnhap.unity
     guid: c53e825bcbd34ef4ea2f163deb4cb648
   - enabled: 1
@@ -42,3 +42,4 @@ EditorBuildSettings:
     path: Assets/Scenes/man2.unity
     guid: 6c65fdb4e405f534196b27f67e8fc35e
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

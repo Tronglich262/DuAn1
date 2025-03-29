@@ -30,7 +30,7 @@ public class CharacterSelect : MonoBehaviour
         PlayerPrefs.SetString("SelectedCharacter", selectedCharacter.name);
         PlayerPrefs.Save();
 
-        SceneManager.LoadScene(10);  // Chuyển sang màn 1
+        SceneManager.LoadScene(7);  // Chuyển sang màn 1
     }
 
     public void OnPrevBtnClick()

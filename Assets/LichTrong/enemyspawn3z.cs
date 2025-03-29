@@ -6,7 +6,7 @@ using UnityEngine;
 public class enemyspawn2: MonoBehaviour
 {
     [SerializeField] GameObject enemyPrefab2;
-    [SerializeField] float spwanRate = 2.5f, spawnRadius = 4f;
+    [SerializeField] float spwanRate = 1f, spawnRadius = 4f;
     private float spawnTimer = 0;
     void Start()
     {

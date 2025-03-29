@@ -6,6 +6,7 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthBar;
+    public bool ischeck = false;
 
     void Start()
     {
@@ -36,12 +37,14 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+          
             Die();
         }
     }
 
     void Die()
     {
+        ischeck = true;
         Debug.Log("Player đã chết!");
         // Xử lý chết (respawn, load màn mới, v.v.)
     }

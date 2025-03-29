@@ -2,13 +2,12 @@
 
 public class EnemyFollow : MonoBehaviour
 {
-    private Transform player;  // Đối tượng nhân vật chính
-    public float speed = 5f;   // Tốc độ di chuyển của quái vật
-    public float stoppingDistance = 2f;  // Khoảng cách dừng lại khi gần nhân vật chính
-    public int health = 10;    // Máu của quái vật
+    private Transform player;  
+    public float speed = 5f;   
+    public float stoppingDistance = 2f;  
+    public int health = 10;   
     void Start()
     {
-        // Tìm đối tượng nhân vật chính trong cảnh với tên là "player"
         player = GameObject.Find("player").transform;
     }
 
